@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .left span {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .left .active {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  

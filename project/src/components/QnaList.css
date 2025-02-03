@@ -1,0 +1,90 @@
+/* QNA 게시판 리스트 */
+.qna-list {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* QNA 리스트 바 */
+.qna-listBar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* QNA 리스트 바의 입력 필드 및 셀렉트 박스 */
+.qna-listBar input,
+.qna-listBar select {
+    padding: 10px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+/* QNA 게시판 제목 바 */
+.qna-listTop > table {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 10px;
+    display: flex;
+    border-bottom: 3px solid #2357a5; /* 진한 밑줄 추가 */
+    text-align: left;
+    background-color: transparent; /* 배경색 제거 */
+}
+
+/* 페이징 관련 스타일 */
+.qna-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.qna-pagination button {
+    padding: 5px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: rgb(212, 229, 253);
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.qna-pagination button:hover {
+    background-color: rgb(180, 195, 240);
+}
+
+.qna-pagination button:disabled {
+    background-color: rgb(230, 230, 230);
+    cursor: not-allowed;
+}
+
+/* QNA 게시판 게시글 컨테이너 */
+.qna-post {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* QNA 게시글 작성자 및 작성일 */
+.qna-post .author {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* QNA 게시글 제목 */
+.qna-post .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2357a5;
+    margin-bottom: 15px;
+}
+
+/* QNA 게시글 내용 */
+.qna-post .content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
