@@ -43,3 +43,4 @@ console.log(date6.toDateString());
 
 //6. 현지에 맞는 로컬 시간 출력
 console.log(date6.toLocaleString());
+
